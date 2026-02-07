@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from robtop_client import RobTopClient
+from backend.robtop_client import RobTopClient
+
 
 app = Flask(__name__)
 CORS(app)  # allow frontend to communicate
